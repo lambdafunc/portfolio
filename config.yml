@@ -17,10 +17,10 @@ menu:
     #   name: Projects
     #   url: /projects
     #   weight: 30
-    # - identifier: resources
-    #   name: Resources
-    #   url: /resources
-    #   weight: 30
+    - identifier: resources
+      name: Resources
+      url: /resources
+      weight: 30
     # - identifier: code
     #   name: Code
     #   url: /code
@@ -45,6 +45,8 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideMeta: false
+  favicon: /favicon.ico
+
 
   # for enchanced SEO
   env: production
