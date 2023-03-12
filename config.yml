@@ -1,0 +1,105 @@
+baseURL: http://lambdafunc.netlify.app/
+languageCode: en-us
+title: Yogesh Upadhyay
+theme: "PaperMod"
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: https://medium.com/@lambdafunc
+      weight: 20
+    # - identifier: projects
+    #   name: Projects
+    #   url: /projects
+    #   weight: 30
+    # - identifier: resources
+    #   name: Resources
+    #   url: /resources
+    #   weight: 30
+    # - identifier: code
+    #   name: Code
+    #   url: /code
+    #   weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags
+    #   weight: 60
+    # - identifier: notes
+    #   name: Notes
+    #   url: https://notes.yogeshupadhyay.org
+    #   weight: 70
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Yogesh Upadhyay"
+    subtitle: "Hello World, My name is Yogesh, I am Sr Software Engineer based in Ireland. Most of my work is around SRE, DevOps and Cloud computing domain. I enjoy working on different Infrastructure related projects around Linux, Kubernetes, Containers, Cloud and everything in between."
+    imageUrl: "home/me.png"
+    imageWidth: 220
+    imageHeight: 220
+    # buttons:
+    #   - name: Resume
+    #     url: ""
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:yogeshupadhya@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/yogeshupadhyay"
+    - name: "github"
+      url: "https://github.com/lambdafunc"
+    - name: "youtube"
+      url: "https://www.youtube.com/@lambdafunc"
+    # - name: "cv"
+    #   url: "https://drive.google.com/file/d/1U6Gg2RnHSCthtWLbZJBlAEI3V1WGjZty/view"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
