@@ -1,6 +1,6 @@
 ---
-title: "Kubernetes Resources"
-description: "K8S Practice resources for CKAD/CKA"
+title: "Kubernetes Learning Resources"
+description: "K8S learning and hands on practice resources for CKAD/CKA"
 dateString: Feb 2023
 draft: False
 tags: ["Kubernetes", "CKA", "CKAD"]
