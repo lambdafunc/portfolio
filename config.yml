@@ -55,7 +55,7 @@ params:
   profileMode:
     enabled: true
     title: "Yogesh Upadhyay"
-    subtitle: "Hello World, My name is Yogesh, I am Sr Software Engineer based in Ireland. Most of my work is around SRE, DevOps and Cloud computing domain. I enjoy working on different Infrastructure related projects around Linux, Kubernetes, Containers, Cloud and everything in between."
+    subtitle: "Hello World, My name is Yogesh, I am Sr Software Engineer based in Ireland. Most of my work is around SRE, DevOps and Cloud computing domain. I enjoy working on different Infrastructure related projects around Linux, Kubernetes, Containers, Cloud, Networking and everything in between."
     imageUrl: "home/me.png"
     imageWidth: 220
     imageHeight: 220
