@@ -78,8 +78,8 @@ params:
       url: "https://www.linkedin.com/in/yogeshupadhyay"
     - name: "github"
       url: "https://github.com/lambdafunc"
-    - name: "youtube"
-      url: "https://www.youtube.com/@lambdafunc"
+    # - name: "youtube"
+    #   url: "https://www.youtube.com/@lambdafunc"
     # - name: "cv"
     #   url: "https://drive.google.com/file/d/1U6Gg2RnHSCthtWLbZJBlAEI3V1WGjZty/view"
 
